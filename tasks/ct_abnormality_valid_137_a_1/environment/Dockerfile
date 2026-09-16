@@ -5,7 +5,9 @@ RUN apt-get update \
         bash ca-certificates curl util-linux \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip install --no-cache-dir nibabel==5.4.2 pillow==10.4.0 huggingface_hub==0.27.0 numpy==2.3.4 pyyaml==6.0.2
+# huggingface_hub is needed only by the bootstrap service (CT-RATE download).
+# No CT / imaging libraries are preinstalled: the agent installs what it needs.
+RUN pip install --no-cache-dir huggingface_hub==0.27.0
 
 # Don't write .pyc files anywhere -- keeps the bind-mounted /tests dir free of
 # root-owned __pycache__ residue that the host can't delete.

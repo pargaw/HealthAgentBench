@@ -39,3 +39,14 @@ Format example:
   per-label and per-disease F1 are reported alongside but do not affect
   the per-task reward.
 - **You have up to 1 hour to complete this task.**
+
+## Resources
+
+The container is limited to the following, and Docker enforces these limits regardless of what system tools report:
+
+- 2 CPUs
+- 8 GiB of memory
+- 8 GiB of disk
+- no GPU
+
+Tools such as `nproc`, `free -h`, `/proc/cpuinfo`, `/proc/meminfo` and `os.cpu_count()` report the host machine (over 100 CPUs and terabytes of RAM), not this container's limits. Keep memory in mind when loading the full volume: a chest CT of several hundred slices is a few hundred MB as a float array, so slice-wise or downsampled reading is safer than loading everything at float64.
