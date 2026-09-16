@@ -3,7 +3,7 @@ version = "1.0"
 [metadata]
 benchmark = "radiology_report"
 mode = "single-task"
-description = "Generate a radiology report for the latest study in /data/patient/"
+description = "Correct a draft radiology report for the latest study in /data/patient/"
 task_id = "xray_report_correction_case_01"
 submission_path = "/workspace/submission.json"
 
