@@ -23,6 +23,7 @@
 </p>
 
 ## 📢 Updates
+* 2026-09-15: We added the Pathology Tumor Slide Selection category (`pathology_tumor_slide_selection`, 10 tasks)
 * 2026-07-27: We added results from Claude Code Opus-5 and Codex GPT-5.6-sol
 * 2026-07-03: We released the benchmark.
 * 2026-07-01: We released our [paper](https://arxiv.org/abs/2606.31179) and [website](https://microsoft.github.io/HealthAgentBench/).
@@ -45,18 +46,21 @@ clinical or biomedical problem, then a task-specific verifier scores the result.
 
 ### Task Categories
 
-HealthAgentBench currently ships **seven** task categories:
+HealthAgentBench currently ships **ten** task categories:
 
 | Category (name in this codebase) | # Tasks | What is the task |
 | --- | --- | --- |
 | X-ray Report Correction (`xray_report_correction`) | 10 | Correct a chest X-ray radiology report for the latest MIMIC-CXR study, scored with the CheXprompt LLM judge verifier. |
-| Pathology Tumor Area Selection (`tumor_area_selection_pathology`) | 10 | Predict the set of tumor-containing tiles over public whole-slide H&E pathology images. |
+| Pathology Tumor Area Selection (`pathology_tumor_area_selection`) | 10 | Predict the set of tumor-containing tiles over public whole-slide H&E pathology images. |
+| Pathology Tumor Slide Selection (`pathology_tumor_slide_selection`) | 10 | Given several whole-slide H&E pathology images, identify which slides (possibly none) contain tumor (TCGA slides from the NCI GDC). |
 | EHR Format Conversion (`ehr_to_meds_etl`) | 1 | ETL raw MIMIC-IV EHR data into the MEDS common data format. |
 | CT Abnormality Classification (`ct_abnormality`) | 10 | Patient-level chest-CT abnormality detection built on the CT-RATE dataset. |
 | Clinical Trial Matching (`clinical_trial_matching`) | 9 | Identify every clinical trial a patient is eligible for from a candidate pool (TREC Clinical Trials 2021, set-recall). |
 | EHR Data Quality Auditing (`ehr_data_quality`) | 8 | Flag rows containing injected data-quality errors in a corrupted MIMIC-IV EHR subset. |
 | EHR Event Modelling (`ehr_event_modelling`) | 6 | Predict future clinical events over longitudinal EHR timelines (Stanford SHAH lab's EHRSHOT benchmark). |
-| **Total** | **54** | |
+| EHR Compositional QA (`ehr_compositional_qa`) | 1 | Answer all 60 numerical clinical questions from raw MIMIC-IV demo EHR tables; pass requires 60/60 correct. |
+| Knee MRI QA (`mri_qa`) | 10 | Answer abnormality, ACL tear, and meniscal tear questions from all three MRI planes; all answers must match the source labels. [Data and label audit](assets/mri_qa/README.md). |
+| **Total** | **75** | |
 
 Each task has its own `README.md` under [`tasks/`](tasks/) with the task's category, success criteria, data/credentials, and commands to run that task or its whole category.
 
@@ -73,17 +77,20 @@ HealthAgentBench/                       # repo root
 ├── website/                            # Astro leaderboard / docs site
 ├── LICENSE
 ├── SECURITY.md
-└── tasks/                              # 54 Harbor tasks, one flat directory per task
+└── tasks/                              # 75 Harbor tasks, one flat directory per task
     ├── xray_report_correction_case_*/         # 10 tasks - Longitudinal X-ray report correction
-    ├── tumor_area_selection_pathology_slide_*/ # 10 tasks — WSI tumor-tile selection
+    ├── pathology_tumor_area_selection_slide_*/ # 10 tasks — WSI tumor-tile selection
+    ├── pathology_tumor_slide_selection_set_*/  # 10 tasks — pick the tumor slides among several WSIs
+    ├── mri_qa_case_*/                         # 10 tasks — three binary questions per knee MRI
     ├── ct_abnormality_valid_*/                 # 10 tasks — chest-CT abnormality detection
     ├── clinical_trial_matching_task_*/         #  9 tasks — patient ↔ trial matching
     ├── ehr_data_quality_task_*/                #  8 tasks — flag injected EHR errors
     ├── ehr_event_modelling_*/                  #  6 tasks — future clinical-event prediction
+    ├── ehr_compositional_qa/                   #  1 task  — 60 clinical questions over MIMIC-IV
     └── ehr_to_meds_etl/                        #  1 task  — MIMIC-IV → MEDS ETL
 ```
 
-All 54 tasks live as **flat, sibling directories** directly under `tasks/` — the task
+All 75 tasks live as **flat, sibling directories** directly under `tasks/` — the task
 directory name is prefixed with its category (e.g. `xray_report_correction_case_01`,
 `ct_abnormality_valid_16_a_1`).
 Every task follows the same Harbor layout (`task.toml` + `instruction.md` +
@@ -194,7 +201,7 @@ uv run harbor run \
   --n-attempts 1 --n-concurrent 5
 ```
 
-Category prefixes for `--include-task-name`: `clinical_trial_matching_*`, `ct_abnormality_*`, `ehr_data_quality_*`, `ehr_event_modelling_*`, `ehr_to_meds_etl`, `tumor_area_selection_pathology_*`, `xray_report_correction_*`
+Category prefixes for `--include-task-name`: `mri_qa_case_*`, `clinical_trial_matching_*`, `ct_abnormality_*`, `ehr_data_quality_*`, `ehr_event_modelling_*`, `ehr_to_meds_etl`, `ehr_compositional_qa`, `pathology_tumor_area_selection_*`, `pathology_tumor_slide_selection_*`, `xray_report_correction_*`
 
 
 
