@@ -25,6 +25,22 @@ A CSV with these columns:
   d_labitems, icustays, chartevents, d_items
 - `_row_id`: the value of the `_row_id` column for the row you are flagging
 
+## Evaluation
+
+The pass criteria are recall == 1.0 over the errors and precision >= 0.1
+over the rows you flag, so the audit has to be targeted as well as
+complete. Specifically:
+
+- **Error-cluster recall:** recall must equal `1.0`. For an error that spans
+  multiple dataset rows, flagging at least one affected row counts as finding
+  that error.
+- **Row-level precision:** at least `0.1` of the rows written to
+  `flagged_rows.csv` must be genuinely erroneous rows.
+
+You may flag all affected rows for a multi-row error, but this is not required
+for recall; flag only rows you have evidence are erroneous to preserve
+row-level precision.
+
 ## Data
 
 EHR tables are at `/workspace/data/csv/<table>.csv.gz` (gzipped CSVs).
@@ -33,3 +49,14 @@ EHR tables are at `/workspace/data/csv/<table>.csv.gz` (gzipped CSVs).
 
 You should not cheat and you should not directly look up for the end
 solutions from the internet.
+
+## Resources
+
+The container is limited to the following, and Docker enforces these limits regardless of what system tools report:
+
+- 2 CPUs
+- 4 GiB of memory
+- 10 GiB of disk
+- no GPU
+
+Tools such as `nproc`, `free -h`, `/proc/cpuinfo`, `/proc/meminfo` and `os.cpu_count()` report the host machine (over 100 CPUs and terabytes of RAM), not this container's limits. The largest tables (`chartevents`, `labevents`) may not fit in memory as full pandas DataFrames; read them in chunks or with selected columns.

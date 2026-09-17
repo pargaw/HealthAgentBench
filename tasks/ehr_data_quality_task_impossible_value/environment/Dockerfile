@@ -1,13 +1,13 @@
 FROM python:3.12-slim
 
-# bash + flock for the bootstrap script; curl/wget for the MIMIC-IV demo
-# download that stage_data.py performs on cache miss.
+# Agent image. Deliberately package-free: the agent is expected to install
+# whatever tooling it needs (pandas, duckdb, ...) itself. The data-staging
+# pipeline runs in a separate image (Dockerfile.bootstrap) that carries the
+# pinned scientific stack, so nothing leaks into the agent's environment.
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
        bash ca-certificates curl wget util-linux \
     && rm -rf /var/lib/apt/lists/*
-
-RUN pip install --no-cache-dir pandas==3.0.1 pyarrow==23.0.1 duckdb==1.5.2 numpy==2.4.2 pyyaml==6.0.3
 
 ENV PYTHONDONTWRITEBYTECODE=1
 

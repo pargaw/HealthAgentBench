@@ -1,9 +1,12 @@
 services:
   bootstrap:
-    image: ${COMPOSE_PROJECT_NAME}-main
+    # Separate image from main: carries pandas/numpy/pyyaml for the
+    # corruption pipeline. Harbor's ``down --rmi all`` removes it with the
+    # rest of the per-trial compose project.
+    image: ${COMPOSE_PROJECT_NAME}-bootstrap
     build:
       context: ..
-      dockerfile: environment/Dockerfile
+      dockerfile: environment/Dockerfile.bootstrap
     volumes:
       # Staging scripts (inject.py, stage_data.py, task_config.yaml)
       # bind-mounted into bootstrap only. The main service (where the

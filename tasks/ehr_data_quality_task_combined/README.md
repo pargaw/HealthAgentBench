@@ -4,7 +4,7 @@ This is one of 8 `ehr_data_quality_*` tasks in the **EHR Data Quality Auditing**
 
 Given a corrupted EHR dataset (a MIMIC-IV-demo subset, source name hidden), flag the rows containing deliberately-injected data-quality errors — impossible values, conflicting/duplicate records, and demographic contradictions — writing `(table, _row_id)` rows.
 
-**Success criteria:** a trial passes iff `recall == 1.0` AND `precision >= 0.01`.
+**Success criteria:** a trial passes iff `recall == 1.0` AND `precision >= 0.1`.
 
 ## Run this task
 
