@@ -1,0 +1,43 @@
+{
+  "task_id": "mri_qa_case_05",
+  "dataset": "aimi.mrnet_knee_mri_s:4a2c:v1_0",
+  "image_table": "valid:zcmk",
+  "source_exam_id": "1141",
+  "files": {
+    "axial": {
+      "file_id": "zcmk-axqbkjp30.iYXYj7tn1oZ84VjIgwVwJg",
+      "file_name": "axial/1141.npy",
+      "size": "2490496",
+      "added_at": "2026-03-31 22:50:44.187000",
+      "md5_hash": "heXAb9FYN/4XH+XI/S9kOA=="
+    },
+    "coronal": {
+      "file_id": "zcmk-axqbkjp30.qRSYXR940YFo_20cLcSrlw",
+      "file_name": "coronal/1141.npy",
+      "size": "1966208",
+      "added_at": "2026-03-31 22:50:44.187000",
+      "md5_hash": "gun7NPdmCkZZiww2Yd92oA=="
+    },
+    "sagittal": {
+      "file_id": "zcmk-axqbkjp30.fznYCrV4nyuP6XYkUJhObg",
+      "file_name": "sagittal/1141.npy",
+      "size": "1966208",
+      "added_at": "2026-03-31 22:50:44.187000",
+      "md5_hash": "14He/vSWRi0CtOAxuMONRQ=="
+    }
+  },
+  "label_tables": {
+    "abnormal": {
+      "table": "valid_abnormal:851r",
+      "canonical_sha256": "f396748fe352959884c1478f714b68509c21ce0ef48c3b6e439fd6d62d671572"
+    },
+    "acl": {
+      "table": "valid_acl:sqwh",
+      "canonical_sha256": "ec143ef9754b521679ecf3c09b355a43c1853bde649a303d4ff95fe077809704"
+    },
+    "meniscus": {
+      "table": "valid_meniscus:nqng",
+      "canonical_sha256": "e59d8f7d64dbd9687a77e4bfff955c5b365741e5659847ef6ed644d101407af1"
+    }
+  }
+}
