@@ -16,4 +16,4 @@ python3 /opt/survival_prediction/stage_data.py \
     --workspace-dir /workspace/data \
     --private-dir /tests
 
-echo "[bootstrap] staged MSK-CHORD NSCLC fold 0"
+echo "[bootstrap] staged MSK-CHORD NSCLC TTE_OS fold 0"

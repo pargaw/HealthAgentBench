@@ -1,10 +1,11 @@
-# mskchord_nsclc
+# mskchord_nsclc_tte
 
 ## Overview
 
 Build the strongest survival model you can for patients with non-small cell
-lung cancer. For every held-out patient, predict a survival-probability curve
-from the available clinical, demographic, laboratory, and genomic features.
+lung cancer. For every held-out patient, predict the time to death or overall survival in
+days from the available clinical, demographic, laboratory, and genomic
+features.
 
 You may use any modeling approach. Iterate freely; only the final submission
 written to `/workspace/submission/predictions.csv` is scored.
@@ -30,36 +31,31 @@ Write `/workspace/submission/predictions.csv` with exactly these columns:
 sample_id,prediction
 ```
 
-Each opaque row-level `sample_id` must appear exactly once and must match a
-row in `test_examples.csv`. Do not derive or alter these identifiers. The
-`prediction` value must be a Python-style list of
-`(time_years, survival_probability)` pairs. For example:
+Each held-out patient `sample_id` must appear exactly once and must match a row
+in `test_examples.csv`. These are the source `PATIENT_ID` values; do not derive
+or alter them. The `prediction` value must be one finite, nonnegative survival time in days. For
+example:
 
-```text
-[(0.0, 1.0), (0.5, 0.93), (1.0, 0.84), (1.5, 0.76)]
+```csv
+sample_id,prediction
+P-0000012,730
 ```
 
-For every curve:
-
-- Times must be finite, nonnegative, and strictly increasing.
-- Probabilities must be finite and between 0 and 1.
-- Probabilities should represent survival through the corresponding time.
-- Include enough of the curve to support evaluation from 0.5 through 10 years.
-
-CSV quoting is required because each prediction contains commas. A standard
-CSV writer such as `pandas.DataFrame.to_csv(..., index=False)` handles this.
+Integer and decimal values are accepted. Do not include units or explanatory
+text in the prediction cell.
 
 ## Scoring
 
-The verifier logs all Survprompt survival-probability metrics:
+The verifier logs the Survprompt TTE_OS metrics:
 
-- Coverage: fraction of expected patients with a unique, parseable curve.
-- C-index: concordance based on the area under each predicted survival curve;
-  higher is better.
-- Censoring-adjusted MAE in years: error of predicted median survival after
+- Coverage: fraction of expected patients with a unique, parseable time.
+- C-index: concordance using shorter predicted survival as higher risk; higher
+  is better.
+- Censoring-adjusted MAE in years: error of predicted survival time after
   pseudo-observation adjustment for censoring; lower is better.
-- Integrated Brier score over the supported 0.5-to-10-year grid; lower is
-  better.
+- Integrated Brier score over the 0.5-to-10-year grid. Each scalar time is
+  converted to a deterministic survival curve that is 1 before the predicted
+  time and 0 afterward; lower is better.
 
 The final reward is binary. Reward is 1.0 only when:
 

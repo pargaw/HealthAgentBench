@@ -160,7 +160,13 @@ def evaluate_against_baselines(
     cmae = _finite_metric(metrics.get("cmae_years"))
     ibs = _finite_metric(metrics.get("ibs"))
     checks = {
-        "coverage": coverage == thresholds["coverage"],
+        "coverage": (
+            coverage == thresholds["coverage"]
+            and int(metrics.get("n_submitted", -1))
+            == int(metrics.get("n_expected", -2))
+            and int(metrics.get("n_unexpected", -1)) == 0
+            and int(metrics.get("n_duplicate_ids", -1)) == 0
+        ),
         "c_index": c_index is not None and c_index > thresholds["c_index"],
         "cmae_years": cmae is not None and cmae < thresholds["cmae_years"],
         "ibs": ibs is not None and ibs < thresholds["ibs"],

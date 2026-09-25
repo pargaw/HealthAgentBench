@@ -3,9 +3,10 @@ version = "1.0"
 [metadata]
 benchmark = "survival_prediction"
 mode = "etl-task"
-task_id = "survival_prediction_mskchord_nsclc"
+task_id = "survival_prediction_mskchord_nsclc_surv_prob"
 dataset = "mskchord"
 cohort = "nsclc"
+prediction_task = "SURV_PROB"
 submission_path = "/workspace/submission/predictions.csv"
 
 [verifier]

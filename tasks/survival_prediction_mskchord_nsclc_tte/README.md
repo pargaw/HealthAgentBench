@@ -1,8 +1,8 @@
-# `survival_prediction_mskchord_nsclc`
+# `survival_prediction_mskchord_nsclc_tte`
 
-This is one of 5 `survival_predictio_*` tasks in the **Survival Prediction** category of [HealthAgentBench](../../README.md).
+This is one of 2 `survival_prediction_*` tasks in the **Survival Prediction** category of [HealthAgentBench](../../README.md).
 
-This task evaluates overall survival predictions for the MSK-CHORD non-small cell lung cancer cohort using the Survprompt split and metrics.
+This task evaluates time-to-death predictions for the MSK-CHORD non-small cell lung cancer cohort using the Survprompt split and TTE_OS metrics.
 
 **Success criteria:** reward 1.0 requires 100% parseable predictions and strict
 improvement over both the Cox and random survival forest baselines on C-index,
@@ -11,7 +11,7 @@ censoring-adjusted MAE, and integrated Brier score.
 ## Data setup
 
 MSK-CHORD is not distributed with HealthAgentBench.
-Download the dataset from (here)[https://github.com/clinical-data-mining/msk-chord-figures-public/tree/main/data] and place the NSCLC cohort file at:
+Download the dataset from [here](https://github.com/clinical-data-mining/msk-chord-figures-public/tree/main/data) and place the NSCLC cohort file at:
 
 ```text
 assets/survival_prediction/mskchord/nsclc_dx_1st_seq_OS.csv
@@ -25,7 +25,7 @@ the held-out outcomes remain verifier-only.
 
 ```bash
 uv run harbor run \
-  --path tasks/survival_prediction_mskchord_nsclc \
+  --path tasks/survival_prediction_mskchord_nsclc_tte \
   --agent claude-code \
   --model claude-opus-4-8 \
   --agent-kwarg reasoning_effort=xhigh \
@@ -36,9 +36,10 @@ uv run harbor run \
 ## Benchmark alignment
 
 The task uses fold 0 from Survprompt's five-fold split with seed 20. There is
-one HealthAgentBench task per cohort rather than one task per fold. Predictions
-use the Survprompt `SURV_PROB` representation, and verifier thresholds come from
-the Cox and RSF runs produced with that same cohort, split, and representation.
+one HealthAgentBench task per prediction format and cohort rather than one task
+per fold. Predictions use the Survprompt `TTE_OS` representation. Integrated
+Brier score converts each scalar time into Survprompt's deterministic step
+curve, and verifier thresholds come from Cox and RSF runs on the same split.
 
 ## Data & references
 

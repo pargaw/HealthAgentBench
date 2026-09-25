@@ -1,5 +1,5 @@
 {
-  "task_id": "survival_prediction_mskchord_nsclc",
+  "task_id": "survival_prediction_mskchord_nsclc_surv_prob",
   "dataset": "mskchord",
   "cohort": "nsclc",
   "prediction_task": "SURV_PROB",

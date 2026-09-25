@@ -57,8 +57,8 @@ HealthAgentBench currently ships **eight** task categories:
 | Clinical Trial Matching (`clinical_trial_matching`) | 9 | Identify every clinical trial a patient is eligible for from a candidate pool (TREC Clinical Trials 2021, set-recall). |
 | EHR Data Quality Auditing (`ehr_data_quality`) | 8 | Flag rows containing injected data-quality errors in a corrupted MIMIC-IV EHR subset. |
 | EHR Event Modelling (`ehr_event_modelling`) | 6 | Predict future clinical events over longitudinal EHR timelines (Stanford SHAH lab's EHRSHOT benchmark). |
-| Survival Prediction (`survival_prediction`) | 1 | Predict overall survival curves for held-out MSK-CHORD patients and outperform traditional aurvival baselines. |
-| **Total** | **55** | |
+| Survival Prediction (`survival_prediction`) | 2 | Predict overall survival for held-out MSK-CHORD patients and outperform traditional survival baselines. |
+| **Total** | **56** | |
 
 Each task has its own `README.md` under [`tasks/`](tasks/) with the task's category, success criteria, data/credentials, and commands to run that task or its whole category.
 
@@ -75,18 +75,18 @@ HealthAgentBench/                       # repo root
 ├── website/                            # Astro leaderboard / docs site
 ├── LICENSE
 ├── SECURITY.md
-└── tasks/                              # 55 Harbor tasks, one flat directory per task
+└── tasks/                              # 56 Harbor tasks, one flat directory per task
     ├── xray_report_correction_case_*/         # 10 tasks - Longitudinal X-ray report correction
     ├── tumor_area_selection_pathology_slide_*/ # 10 tasks — WSI tumor-tile selection
     ├── ct_abnormality_valid_*/                 # 10 tasks — chest-CT abnormality detection
     ├── clinical_trial_matching_task_*/         #  9 tasks — patient ↔ trial matching
     ├── ehr_data_quality_task_*/                #  8 tasks — flag injected EHR errors
     ├── ehr_event_modelling_*/                  #  6 tasks — future clinical-event prediction
-    ├── survival_prediction_*/                  #  1 task  — survival-curve prediction
+    ├── survival_prediction_*/                  #  2 tasks — overall-survival prediction
     └── ehr_to_meds_etl/                        #  1 task  — MIMIC-IV → MEDS ETL
 ```
 
-All 55 tasks live as **flat, sibling directories** directly under `tasks/` — the task
+All 56 tasks live as **flat, sibling directories** directly under `tasks/` — the task
 directory name is prefixed with its category (e.g. `xray_report_correction_case_01`,
 `ct_abnormality_valid_16_a_1`).
 Every task follows the same Harbor layout (`task.toml` + `instruction.md` +

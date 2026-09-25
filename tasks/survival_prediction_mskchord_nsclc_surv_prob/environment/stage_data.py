@@ -11,6 +11,7 @@ from sklearn.model_selection import KFold
 
 DATASET_NAME = "mskchord"
 COHORT = "nsclc"
+PREDICTION_TASK = "SURV_PROB"
 SOURCE_FILENAME = "nsclc_dx_1st_seq_OS.csv"
 NUM_FOLDS = 5
 FOLD = 0
@@ -112,8 +113,7 @@ def load_cohort(source_dir: Path) -> tuple[pd.DataFrame, list[str]]:
     )
     frame["event_observed"] = frame["dead"].astype(bool)
     frame = frame[frame["observed_time_days"] >= 0].reset_index(drop=True)
-    source_rows = frame.index.to_series().astype(str).str.zfill(6)
-    frame["sample_id"] = frame["PATIENT_ID"].astype(str) + "__row_" + source_rows
+    frame["sample_id"] = frame["PATIENT_ID"].astype(str)
 
     features = [column for column in FEATURE_COLUMNS if column in frame.columns]
     cohort_flag = f"has_{COHORT}"
@@ -150,6 +150,8 @@ def stage_cohort(
 ) -> dict[str, object]:
     frame, features = load_cohort(source_dir)
     train, test = split_cohort(frame, num_folds=num_folds, fold=fold, seed=seed)
+    if test["sample_id"].duplicated().any():
+        raise ValueError("selected test fold contains duplicate PATIENT_ID values")
 
     workspace_dir.mkdir(parents=True, exist_ok=True)
     private_dir.mkdir(parents=True, exist_ok=True)
@@ -167,6 +169,7 @@ def stage_cohort(
     manifest: dict[str, object] = {
         "dataset": DATASET_NAME,
         "cohort": COHORT,
+        "prediction_task": PREDICTION_TASK,
         "num_folds": num_folds,
         "fold": fold,
         "seed": seed,
