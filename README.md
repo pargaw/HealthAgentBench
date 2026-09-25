@@ -46,7 +46,7 @@ clinical or biomedical problem, then a task-specific verifier scores the result.
 
 ### Task Categories
 
-HealthAgentBench currently ships **seven** task categories:
+HealthAgentBench currently ships **eight** task categories:
 
 | Category (name in this codebase) | # Tasks | What is the task |
 | --- | --- | --- |
@@ -57,7 +57,8 @@ HealthAgentBench currently ships **seven** task categories:
 | Clinical Trial Matching (`clinical_trial_matching`) | 9 | Identify every clinical trial a patient is eligible for from a candidate pool (TREC Clinical Trials 2021, set-recall). |
 | EHR Data Quality Auditing (`ehr_data_quality`) | 8 | Flag rows containing injected data-quality errors in a corrupted MIMIC-IV EHR subset. |
 | EHR Event Modelling (`ehr_event_modelling`) | 6 | Predict future clinical events over longitudinal EHR timelines (Stanford SHAH lab's EHRSHOT benchmark). |
-| **Total** | **54** | |
+| Survival Prediction (`survival_prediction`) | 1 | Predict overall survival curves for held-out MSK-CHORD patients and outperform traditional aurvival baselines. |
+| **Total** | **55** | |
 
 Each task has its own `README.md` under [`tasks/`](tasks/) with the task's category, success criteria, data/credentials, and commands to run that task or its whole category.
 
@@ -74,17 +75,18 @@ HealthAgentBench/                       # repo root
 ├── website/                            # Astro leaderboard / docs site
 ├── LICENSE
 ├── SECURITY.md
-└── tasks/                              # 54 Harbor tasks, one flat directory per task
+└── tasks/                              # 55 Harbor tasks, one flat directory per task
     ├── xray_report_correction_case_*/         # 10 tasks - Longitudinal X-ray report correction
     ├── tumor_area_selection_pathology_slide_*/ # 10 tasks — WSI tumor-tile selection
     ├── ct_abnormality_valid_*/                 # 10 tasks — chest-CT abnormality detection
     ├── clinical_trial_matching_task_*/         #  9 tasks — patient ↔ trial matching
     ├── ehr_data_quality_task_*/                #  8 tasks — flag injected EHR errors
     ├── ehr_event_modelling_*/                  #  6 tasks — future clinical-event prediction
+    ├── survival_prediction_*/                  #  1 task  — survival-curve prediction
     └── ehr_to_meds_etl/                        #  1 task  — MIMIC-IV → MEDS ETL
 ```
 
-All 54 tasks live as **flat, sibling directories** directly under `tasks/` — the task
+All 55 tasks live as **flat, sibling directories** directly under `tasks/` — the task
 directory name is prefixed with its category (e.g. `xray_report_correction_case_01`,
 `ct_abnormality_valid_16_a_1`).
 Every task follows the same Harbor layout (`task.toml` + `instruction.md` +
@@ -122,6 +124,8 @@ instructions below and fill in the credentials in `.env` (there is a file
   (radiology reports) and [MIMIC-CXR-JPG v2.1.0](https://physionet.org/content/mimic-cxr-jpg/2.1.0/)
   (JPG frames + metadata), both on PhysioNet. Once approved, set your PhysioNet
   username as `PN_USER` and password as `PN_PASS` in `.env`.
+- **survival_prediction** — [MSK-CHORD cohorts](https://github.com/clinical-data-mining/msk-chord-figures-public/tree/main/data). Access available from link, download each cohort dataset and place under
+  `assets/survival_prediction/mskchord/`.
 
 
 ### Setting up other secrets
@@ -195,7 +199,7 @@ uv run harbor run \
   --n-attempts 1 --n-concurrent 5
 ```
 
-Category prefixes for `--include-task-name`: `clinical_trial_matching_*`, `ct_abnormality_*`, `ehr_data_quality_*`, `ehr_event_modelling_*`, `ehr_to_meds_etl`, `tumor_area_selection_pathology_*`, `xray_report_correction_*`
+Category prefixes for `--include-task-name`: `clinical_trial_matching_*`, `ct_abnormality_*`, `ehr_data_quality_*`, `ehr_event_modelling_*`, `ehr_to_meds_etl`, `survival_prediction_*`, `tumor_area_selection_pathology_*`, `xray_report_correction_*`
 
 
 
