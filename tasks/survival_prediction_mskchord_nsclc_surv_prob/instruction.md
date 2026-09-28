@@ -31,8 +31,14 @@ sample_id,prediction
 ```
 
 Each held-out patient `sample_id` must appear exactly once and must match a row
-in `test_examples.csv`. These are the source `PATIENT_ID` values; do not derive
-or alter them. The `prediction` value must be a Python-style list of
+in `test_examples.csv`.
+
+Treat `sample_id` only as an opaque submission key. Do not use its value,
+numeric components, ordering, or any transformation of it as input to
+prediction, feature engineering, stratification, calibration, or model
+selection.
+
+The `prediction` value must be a Python-style list of
 `(time_years, survival_probability)` pairs. For example:
 
 ```text
