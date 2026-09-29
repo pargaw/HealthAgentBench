@@ -1,6 +1,6 @@
 # `survival_prediction_mskchord_nsclc_tte`
 
-This is one of 2 `survival_prediction_*` tasks in the **Survival Prediction** category of [HealthAgentBench](../../README.md).
+This is one of 4 `survival_prediction_*` tasks in the **Survival Prediction** category of [HealthAgentBench](../../README.md).
 
 This task evaluates time-to-death predictions for the MSK-CHORD non-small cell lung cancer cohort using the Survprompt split and TTE_OS metrics.
 
@@ -44,4 +44,3 @@ curve, and verifier thresholds come from Cox and RSF runs on the same split.
 ## Data & references
 
 - Survprompt: <https://github.com/microsoft/survprompt>
-

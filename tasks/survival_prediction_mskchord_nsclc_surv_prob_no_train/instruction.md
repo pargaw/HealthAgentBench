@@ -1,4 +1,4 @@
-# mskchord_nsclc_surv_prob
+# mskchord_nsclc_surv_prob_no_train
 
 ## Overview
 
@@ -9,18 +9,16 @@ from the available clinical, demographic, laboratory, and genomic features.
 You may use any modeling approach. Iterate freely; only the final submission
 written to `/workspace/submission/predictions.csv` is scored.
 
+
 ## Inputs
 
 The following files are available under `/workspace/data/`:
 
-- `train.csv`: labeled training patients. It contains `sample_id`, feature
-  columns, `observed_time_days`, and `event_observed`.
-- `test_examples.csv`: held-out patients with `sample_id` and the same feature
-  columns, but no outcomes.
+- `test_examples.csv`: held-out patients with `sample_id` and feature columns,
+  but no outcomes.
 - `manifest.json`: split metadata and the feature-column list.
 
-`event_observed` is true when death was observed and false when the survival
-time is right-censored. Missing feature values may be present.
+No labeled `train.csv` is provided. Missing feature values may be present.
 
 ## Output
 
@@ -81,5 +79,5 @@ successful result.
 
 - You have up to one hour.
 - Internet access is available.
-- Do not attempt to access held-out outcomes. They are not mounted during the
+- Do not attempt to access training outcomes or held-out outcomes. They are not mounted during the
   agent run.
