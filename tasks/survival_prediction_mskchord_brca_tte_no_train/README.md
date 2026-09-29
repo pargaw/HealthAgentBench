@@ -1,6 +1,7 @@
-# `survival_prediction_mskchord_nsclc_surv_prob`
+# `survival_prediction_mskchord_brca_tte_no_train`
 
-This task evaluates overall survival predictions for the MSK-CHORD non-small cell lung cancer cohort using the Survprompt split and metrics.
+This is the no-training-data `TTE_OS` variant of the MSK-CHORD BRCA survival
+task. The agent sees all held-out feature rows but no labeled `train.csv`.
 
 **Success criteria:** reward 1.0 requires 100% parseable predictions and strict
 improvement over both the Cox and random survival forest baselines on C-index,
@@ -9,21 +10,21 @@ censoring-adjusted MAE, and integrated Brier score.
 ## Data setup
 
 MSK-CHORD is not distributed with HealthAgentBench.
-Download the dataset from [here](https://github.com/clinical-data-mining/msk-chord-figures-public/tree/main/data) and place the NSCLC cohort file at:
+Download the dataset from [here](https://github.com/clinical-data-mining/msk-chord-figures-public/tree/main/data) and place the BRCA cohort file at:
 
 ```text
-assets/survival_prediction/mskchord/nsclc_dx_1st_seq_OS.csv
+assets/survival_prediction/mskchord/brca_dx_1st_seq_OS.csv
 ```
 
 The raw file is mounted only into the bootstrap container. The agent receives
-labeled training examples and unlabeled test examples through a Docker volume;
+unlabeled test examples through a Docker volume;
 the held-out outcomes remain verifier-only.
 
 ## Run this task
 
 ```bash
 uv run harbor run \
-  --path tasks/survival_prediction_mskchord_nsclc_surv_prob \
+  --path tasks/survival_prediction_mskchord_brca_tte_no_train \
   --agent claude-code \
   --model claude-opus-4-8 \
   --agent-kwarg reasoning_effort=xhigh \
@@ -35,7 +36,7 @@ uv run harbor run \
 
 The task uses fold 0 from Survprompt's five-fold split with seed 20. There is
 one HealthAgentBench task per prediction format and cohort rather than one task
-per fold. Predictions use the Survprompt `SURV_PROB` representation, and verifier thresholds come from
+per fold. Predictions use the Survprompt `TTE_OS` representation, and verifier thresholds come from
 the Cox and RSF runs produced with that same cohort, split, and representation.
 
 ## Data & references

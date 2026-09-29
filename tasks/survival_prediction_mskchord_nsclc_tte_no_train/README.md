@@ -36,9 +36,8 @@ uv run harbor run \
 
 The task uses fold 0 from Survprompt's five-fold split with seed 20. There is
 one HealthAgentBench task per prediction format and cohort rather than one task
-per fold. Predictions use the Survprompt `TTE_OS` representation. Integrated
-Brier score converts each scalar time into Survprompt's deterministic step
-curve, and verifier thresholds come from Cox and RSF runs on the same split.
+per fold. Predictions use the Survprompt `TTE_OS` representation, and verifier thresholds come from
+the Cox and RSF runs produced with that same cohort, split, and representation.
 
 ## Data & references
 

@@ -1,6 +1,6 @@
-# `survival_prediction_mskchord_nsclc_surv_prob`
+# `survival_prediction_mskchord_prostate_surv_prob`
 
-This task evaluates overall survival predictions for the MSK-CHORD non-small cell lung cancer cohort using the Survprompt split and metrics.
+This task evaluates overall survival predictions for the MSK-CHORD prostate cancer cohort using the Survprompt split and metrics.
 
 **Success criteria:** reward 1.0 requires 100% parseable predictions and strict
 improvement over both the Cox and random survival forest baselines on C-index,
@@ -9,10 +9,10 @@ censoring-adjusted MAE, and integrated Brier score.
 ## Data setup
 
 MSK-CHORD is not distributed with HealthAgentBench.
-Download the dataset from [here](https://github.com/clinical-data-mining/msk-chord-figures-public/tree/main/data) and place the NSCLC cohort file at:
+Download the dataset from [here](https://github.com/clinical-data-mining/msk-chord-figures-public/tree/main/data) and place the PROSTATE cohort file at:
 
 ```text
-assets/survival_prediction/mskchord/nsclc_dx_1st_seq_OS.csv
+assets/survival_prediction/mskchord/prostate_dx_1st_seq_OS.csv
 ```
 
 The raw file is mounted only into the bootstrap container. The agent receives
@@ -23,7 +23,7 @@ the held-out outcomes remain verifier-only.
 
 ```bash
 uv run harbor run \
-  --path tasks/survival_prediction_mskchord_nsclc_surv_prob \
+  --path tasks/survival_prediction_mskchord_prostate_surv_prob \
   --agent claude-code \
   --model claude-opus-4-8 \
   --agent-kwarg reasoning_effort=xhigh \

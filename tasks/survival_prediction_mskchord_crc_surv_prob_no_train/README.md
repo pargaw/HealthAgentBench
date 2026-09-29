@@ -1,6 +1,8 @@
-# `survival_prediction_mskchord_nsclc_surv_prob`
+# `survival_prediction_mskchord_crc_surv_prob_no_train`
 
-This task evaluates overall survival predictions for the MSK-CHORD non-small cell lung cancer cohort using the Survprompt split and metrics.
+This is the no-training-data `SURV_PROB` variant of the MSK-CHORD CRC
+survival task. The agent sees all held-out feature rows but no labeled
+`train.csv`.
 
 **Success criteria:** reward 1.0 requires 100% parseable predictions and strict
 improvement over both the Cox and random survival forest baselines on C-index,
@@ -9,21 +11,21 @@ censoring-adjusted MAE, and integrated Brier score.
 ## Data setup
 
 MSK-CHORD is not distributed with HealthAgentBench.
-Download the dataset from [here](https://github.com/clinical-data-mining/msk-chord-figures-public/tree/main/data) and place the NSCLC cohort file at:
+Download the dataset from [here](https://github.com/clinical-data-mining/msk-chord-figures-public/tree/main/data) and place the CRC cohort file at:
 
 ```text
-assets/survival_prediction/mskchord/nsclc_dx_1st_seq_OS.csv
+assets/survival_prediction/mskchord/crc_dx_1st_seq_OS.csv
 ```
 
 The raw file is mounted only into the bootstrap container. The agent receives
-labeled training examples and unlabeled test examples through a Docker volume;
-the held-out outcomes remain verifier-only.
+unlabeled test examples through a Docker volume;
+the training data and held-out outcomes remain verifier-only.
 
 ## Run this task
 
 ```bash
 uv run harbor run \
-  --path tasks/survival_prediction_mskchord_nsclc_surv_prob \
+  --path tasks/survival_prediction_mskchord_crc_surv_prob_no_train \
   --agent claude-code \
   --model claude-opus-4-8 \
   --agent-kwarg reasoning_effort=xhigh \
