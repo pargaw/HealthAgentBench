@@ -1,13 +1,20 @@
 FROM python:3.12-slim
 
-# bash + flock for the bootstrap script; curl/wget for the MIMIC-IV demo
-# download that stage_data.py performs on cache miss.
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
-       bash ca-certificates curl wget util-linux \
-    && rm -rf /var/lib/apt/lists/*
-
-RUN pip install --no-cache-dir pandas==3.0.1 pyarrow==23.0.1 duckdb==1.5.2 numpy==2.4.2 pyyaml==6.0.3
+# Agent image. The data-staging pipeline runs in a separate image
+# (Dockerfile.bootstrap); nothing from it leaks into this environment. The data
+# stack below uses the same pins as the bootstrap image (labels.csv was generated
+# with them), plus general analysis libraries.
+RUN apt-get update && apt-get install -y --no-install-recommends bash ca-certificates curl jq tmux asciinema ripgrep wget util-linux && rm -rf /var/lib/apt/lists/*
+# Node.js preinstalled from NodeSource (one package). Harbor's codex setup only
+# apt-installs curl/node/npm/ripgrep when the commands are missing; Debian's
+# ``npm`` meta-package pulls in ~700 debs and made five concurrent trials exceed
+# the agent-setup timeout on shared hosts. Codex itself is still installed by
+# Harbor at setup time (nvm + npm), reproducibly and per its own version pin.
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash -     && apt-get install -y --no-install-recommends nodejs     && rm -rf /var/lib/apt/lists/*     && node --version && npm --version
+# Analysis stack preinstalled: the agent phase has no internet beyond the model API
+# (task.toml [agent] allowlist), so nothing can be pip-installed later.
+RUN pip install --no-cache-dir pandas==3.0.1 pyarrow==23.0.1 duckdb==1.5.2 numpy==2.4.2 \
+        polars==1.44.2 scipy==1.18.1 scikit-learn==1.9.1 matplotlib==3.10.8
 
 ENV PYTHONDONTWRITEBYTECODE=1
 

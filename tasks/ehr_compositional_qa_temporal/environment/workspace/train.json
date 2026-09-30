@@ -1,0 +1,3002 @@
+[
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_1",
+    "question": "What was the maximum AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 10.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "apsiii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's creatinine APS III component score at the time of ICU admission?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "first_day_sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's cardiovascular SOFA component score on the first day of their ICU admission?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_3",
+    "question": "What was the maximum KDIGO AKI stage this patient reached within the first 24 hours of their ICU admission?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 5.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 5.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "lods",
+    "variant_id": "variant_3",
+    "question": "What was this patient's neurological LODS component score at the time of ICU admission?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 17.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 8.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 6.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 6.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 14.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 6.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 6.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 23.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 30.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 13.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 11.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 21.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 9.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 12.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 20.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 8.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 28.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 8.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 8.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_1",
+    "question": "What was this patient's admission MELD score?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 12.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.06
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 0.501
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 3.232
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.05
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 0.16
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.08
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.05
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10007818,
+    "hadm_id": 22987108,
+    "stay_id": 32359580,
+    "answer_type": "numerical",
+    "gt_answer": 1.227
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10009035,
+    "hadm_id": 28324362,
+    "stay_id": 38507547,
+    "answer_type": "numerical",
+    "gt_answer": 0.05
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10009628,
+    "hadm_id": 25926192,
+    "stay_id": 35258379,
+    "answer_type": "numerical",
+    "gt_answer": 1.016
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10010471,
+    "hadm_id": 29842315,
+    "stay_id": 32119961,
+    "answer_type": "numerical",
+    "gt_answer": 0.25
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10011398,
+    "hadm_id": 27505812,
+    "stay_id": 37648963,
+    "answer_type": "numerical",
+    "gt_answer": 0.06
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10014078,
+    "hadm_id": 25809882,
+    "stay_id": 38907302,
+    "answer_type": "numerical",
+    "gt_answer": 0.151
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10015931,
+    "hadm_id": 22130791,
+    "stay_id": 37093652,
+    "answer_type": "numerical",
+    "gt_answer": 0.601
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10018081,
+    "hadm_id": 21027282,
+    "stay_id": 37293400,
+    "answer_type": "numerical",
+    "gt_answer": 0.66
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10018423,
+    "hadm_id": 29366372,
+    "stay_id": 30665396,
+    "answer_type": "numerical",
+    "gt_answer": 0.2
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10019172,
+    "hadm_id": 24997044,
+    "stay_id": 32283063,
+    "answer_type": "numerical",
+    "gt_answer": 0.1
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10019385,
+    "hadm_id": 20297618,
+    "stay_id": 39268883,
+    "answer_type": "numerical",
+    "gt_answer": 0.1
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10020306,
+    "hadm_id": 23052851,
+    "stay_id": 38540883,
+    "answer_type": "numerical",
+    "gt_answer": 0.1
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) within the first 24 hours of ICU admission?",
+    "subject_id": 10020786,
+    "hadm_id": 23488445,
+    "stay_id": 33683112,
+    "answer_type": "numerical",
+    "gt_answer": 0.13
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 0.059027777777777776
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 1.8486342592592593
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.030810185185185187
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.05416666666666667
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.0007060185185185185
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.052083333333333336
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 0.3626736111111111
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 1.5675810185185184
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 0.10347222222222222
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 1.7846064814814815
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": -0.024710648148148148
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 0.07916666666666666
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.0002777777777777778
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.79375
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 3.323622685185185
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.7445370370370371
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.9923958333333333
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0006944444444444445
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.2244212962962963
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_2",
+    "question": "How many days did this patient spend in the hospital before their ICU admission?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.05347222222222222
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 56.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 105.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 54.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 44.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 47.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 59.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 14.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 27.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 56.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 47.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 45.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 58.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 96.5
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 55.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 51.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 82.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 92.5
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 56.0
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 79.5
+  },
+  {
+    "concept": "oasis",
+    "variant_id": "variant_3",
+    "question": "What was this patient's mean blood pressure (mmHg) component value used in their OASIS score at the time of ICU admission?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 99.5
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 18.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 18.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 16.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 16.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 12.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 12.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 16.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 12.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 12.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 12.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "sapsii",
+    "variant_id": "variant_3",
+    "question": "What was this patient's age component score in the SAPS II at the time of ICU admission?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 7.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 5.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 8.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_0",
+    "question": "What is this patient's SOFA score at the time of suspected infection?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 5.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 9.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 11.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_1",
+    "question": "How many hours after ICU admission was this patient first administered antibiotics in the context of suspected infection?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": -2.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": -5.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 17.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 5.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_4",
+    "question": "How many hours after ICU admission was a microbiological culture obtained in the context of suspected infection?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sirs",
+    "variant_id": "variant_3",
+    "question": "What was this patient's WBC SIRS component score on their first ICU day?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 5.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 17.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 19.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 11.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum SOFA score within their first 12 hours in the ICU?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  }
+]

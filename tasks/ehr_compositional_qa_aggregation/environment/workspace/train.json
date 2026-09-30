@@ -1,0 +1,2002 @@
+[
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_0",
+    "question": "What is the maximum AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_0",
+    "question": "What is the maximum KDIGO AKI stage this patient reaches during their ICU stay?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_1",
+    "question": "What is the maximum KDIGO AKI stage based on creatinine criteria for this patient during their ICU stay?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "kdigo_stages",
+    "variant_id": "variant_4",
+    "question": "What is the maximum KDIGO AKI stage based on CRRT criteria for this patient during their ICU stay?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 22.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 8.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 6.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 6.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 21.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 6.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 6.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 23.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 32.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 13.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 11.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 21.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 9.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 12.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 20.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 8.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 28.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 8.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 8.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum MELD score during their ICU stay?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 12.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 0.5
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.6
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.8
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.4
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 1.6
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.6
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 8.3
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.9
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.7
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 0.3
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 3.4
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.8
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.9
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.5
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.6
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.5
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_3",
+    "question": "What was this patient's maximum serum creatinine used in the MELD score calculation?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.6
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 1.8
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 1.2
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.9
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 2.4
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 1.3
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 1.8
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 1.4
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 1.5
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 1.3
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 1.3
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 1.7
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 2.1
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 1.1
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 2.6
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 1.2
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 1.1
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 1.7
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10007818,
+    "hadm_id": 22987108,
+    "stay_id": 32359580,
+    "answer_type": "numerical",
+    "gt_answer": 2.7
+  },
+  {
+    "concept": "meld",
+    "variant_id": "variant_4",
+    "question": "What is this patient's maximum INR value used in the MELD score calculation?",
+    "subject_id": 10007928,
+    "hadm_id": 20338077,
+    "stay_id": 35128235,
+    "answer_type": "numerical",
+    "gt_answer": 1.4
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.06
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 0.501
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 3.232
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.178
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.05
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 0.16
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.17
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.08
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.05
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.05
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10007818,
+    "hadm_id": 22987108,
+    "stay_id": 32359580,
+    "answer_type": "numerical",
+    "gt_answer": 1.227
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10009035,
+    "hadm_id": 28324362,
+    "stay_id": 38507547,
+    "answer_type": "numerical",
+    "gt_answer": 0.05
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10009628,
+    "hadm_id": 25926192,
+    "stay_id": 35258379,
+    "answer_type": "numerical",
+    "gt_answer": 1.016
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10010471,
+    "hadm_id": 29842315,
+    "stay_id": 32119961,
+    "answer_type": "numerical",
+    "gt_answer": 0.622
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10011398,
+    "hadm_id": 27505812,
+    "stay_id": 37648963,
+    "answer_type": "numerical",
+    "gt_answer": 0.06
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10015931,
+    "hadm_id": 22130791,
+    "stay_id": 37093652,
+    "answer_type": "numerical",
+    "gt_answer": 0.601
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10018081,
+    "hadm_id": 21027282,
+    "stay_id": 37293400,
+    "answer_type": "numerical",
+    "gt_answer": 0.66
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10018423,
+    "hadm_id": 29366372,
+    "stay_id": 30665396,
+    "answer_type": "numerical",
+    "gt_answer": 0.2
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10019172,
+    "hadm_id": 24997044,
+    "stay_id": 32283063,
+    "answer_type": "numerical",
+    "gt_answer": 0.1
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10019385,
+    "hadm_id": 20297618,
+    "stay_id": 39268883,
+    "answer_type": "numerical",
+    "gt_answer": 0.1
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.036
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 0.185
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 0.6413469387755102
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.09872340425531916
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.039285714285714285
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 0.08311538461538462
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.11071428571428571
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.046
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.0375
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.043333333333333335
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10007818,
+    "hadm_id": 22987108,
+    "stay_id": 32359580,
+    "answer_type": "numerical",
+    "gt_answer": 0.263159509202454
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10009035,
+    "hadm_id": 28324362,
+    "stay_id": 38507547,
+    "answer_type": "numerical",
+    "gt_answer": 0.05
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10009628,
+    "hadm_id": 25926192,
+    "stay_id": 35258379,
+    "answer_type": "numerical",
+    "gt_answer": 0.3402857142857143
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10010471,
+    "hadm_id": 29842315,
+    "stay_id": 32119961,
+    "answer_type": "numerical",
+    "gt_answer": 0.27564
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10011398,
+    "hadm_id": 27505812,
+    "stay_id": 37648963,
+    "answer_type": "numerical",
+    "gt_answer": 0.05
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10014078,
+    "hadm_id": 25809882,
+    "stay_id": 38907302,
+    "answer_type": "numerical",
+    "gt_answer": 0.0609375
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10015931,
+    "hadm_id": 22130791,
+    "stay_id": 37093652,
+    "answer_type": "numerical",
+    "gt_answer": 0.2179787234042553
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10018081,
+    "hadm_id": 21027282,
+    "stay_id": 37293400,
+    "answer_type": "numerical",
+    "gt_answer": 0.3077837837837838
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10018423,
+    "hadm_id": 29366372,
+    "stay_id": 30665396,
+    "answer_type": "numerical",
+    "gt_answer": 0.10785714285714286
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_1",
+    "question": "What is this patient's average norepinephrine-equivalent vasopressor dose (mcg/kg/min) during their ICU stay?",
+    "subject_id": 10019172,
+    "hadm_id": 24997044,
+    "stay_id": 32283063,
+    "answer_type": "numerical",
+    "gt_answer": 0.075
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 5.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 20.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 19.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 14.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 8.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sofa",
+    "variant_id": "variant_0",
+    "question": "What is this patient's maximum SOFA score during their first 24 hours in the ICU?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  }
+]

@@ -19,6 +19,7 @@ rows is flagged.
 
 from __future__ import annotations
 
+import os
 import sys
 from dataclasses import asdict, dataclass
 from hashlib import sha1
@@ -26,6 +27,8 @@ from pathlib import Path
 from typing import Any
 
 import numpy as np
+from decimal import Decimal
+import re
 import pandas as pd
 
 
@@ -340,6 +343,37 @@ def _stratified_sample(
     return np.array(selected, dtype=int)
 
 
+def _decimals(s: Any) -> int | None:
+    """Number of decimals in a plain numeric string ("206" -> 0, "15.4" -> 1);
+    None when ``s`` is not a plain number."""
+    s = str(s).strip()
+    if not re.fullmatch(r"-?\d+(\.\d+)?", s):
+        return None
+    return len(s.split(".")[1]) if "." in s else 0
+
+
+def _fmt_decimals(x: float, nd: int) -> str:
+    """Render ``x`` with exactly ``nd`` decimals ("223", "15.4")."""
+    return f"{float(x):.{nd}f}"
+
+
+def _like_decimals(row: pd.Series, numeric_col: str) -> int:
+    """Decimals to use for a corrupted numeric so it looks like the source row.
+
+    Prefer the row's ``value`` text (the source's own rendering, e.g. "206"),
+    else the repr of the numeric column (floats print with >= 1 decimal).
+    Formatting differences between corrupted and clean rows (2-decimal values
+    on an item that uses 1, or "500.0" doses where the column uses "500") were
+    a detectable synthetic signature; matching the source row removes it.
+    """
+    if "value" in row.index:
+        d = _decimals(row["value"])
+        if d is not None:
+            return d
+    d = _decimals(repr(float(row[numeric_col]))) if pd.notna(row[numeric_col]) else None
+    return d if d is not None else 1
+
+
 def _widen_to_float(df: pd.DataFrame, col: str) -> None:
     if col in df.columns and not pd.api.types.is_float_dtype(df[col]):
         df[col] = df[col].astype("float64")
@@ -390,14 +424,16 @@ def _apply_range_extreme(
         # Sample from the implausible band so the sentinel value isn't a
         # constant the agent can hard-code as a search.
         replacement = float(rng.uniform(ext_lo, ext_hi))
-        # Round to 1 decimal so the value still reads like a real measurement.
-        replacement = round(replacement, 1)
+        # Round to the source row's own precision so the value reads like a
+        # real measurement and does not stand out by its formatting.
+        nd = _like_decimals(df.loc[idx], field)
+        replacement = round(replacement, nd)
         original = df.at[idx, field]
         df.at[idx, field] = replacement
         # Keep the parallel ``value`` (string) column in sync — when the
         # agent compares ``value`` vs ``valuenum`` it should see them agree.
         if has_valuenum and "value" in df.columns:
-            df.at[idx, "value"] = str(replacement)
+            df.at[idx, "value"] = _fmt_decimals(replacement, nd)
         row_id = str(df.at[idx, "_row_id"])
         labels.append(
             Label(
@@ -476,9 +512,11 @@ def _apply_decimal_shift(
                     break
             if new is None:
                 continue
+            nd = _like_decimals(df.loc[idx], "valuenum")
+            new = round(new, nd)
             df.at[idx, "valuenum"] = new
             if "value" in df.columns:
-                df.at[idx, "value"] = str(new)
+                df.at[idx, "value"] = _fmt_decimals(new, nd)
             row_id = str(df.at[idx, "_row_id"])
             labels.append(
                 Label(
@@ -524,7 +562,13 @@ def _apply_decimal_shift(
                 continue
             if pd.isna(original_f) or original_f < 1.0:
                 continue  # NaN / empty / sub-1.0 dose: no meaningful corruption
-            new = str(original_f * mult)
+            # Shift the decimal point in the source's own text so the dose
+            # keeps the column's formatting ("5" -> "500", "2.25" -> "225",
+            # "0.125" -> "12.5") instead of a float repr like "500.0".
+            shifted = Decimal(str(original).strip()) * Decimal(int(mult))
+            new = format(shifted, "f")
+            if "." in new:
+                new = new.rstrip("0").rstrip(".")
             df.at[idx, "dose_val_rx"] = new
             row_id = str(df.at[idx, "_row_id"])
             labels.append(
@@ -569,11 +613,11 @@ def _apply_unit_confusion(
         # Round to per-itemid output precision so the converted value reads
         # like a real analyzer reading (no IEEE-754 artifacts like
         # ``6.840000000000001``) — those would be a synthetic giveaway.
-        precision = DEVICE_PRECISION.get(int(itemid), DEFAULT_VALUENUM_PRECISION)
-        new = round(original * factor, precision)
+        nd = max(1, _like_decimals(df.loc[idx], "valuenum"))
+        new = round(original * factor, nd)
         df.at[idx, "valuenum"] = new
         if "value" in df.columns:
-            df.at[idx, "value"] = str(new)
+            df.at[idx, "value"] = _fmt_decimals(new, nd)
         row_id = str(df.at[idx, "_row_id"])
         labels.append(
             Label(
@@ -869,6 +913,92 @@ def _lookup_stay_id(
     return None
 
 
+def _fill_chart_provenance(
+    new_chart: pd.Series,
+    chart_df: pd.DataFrame,
+    related_tables: dict[str, pd.DataFrame] | None,
+) -> None:
+    """Make a synthetic chartevents row carry the provenance columns a real row
+    of the same ``itemid`` carries.
+
+    * the charting delay (``storetime - charttime``) is copied from the
+      nearest real row of the same itemid; ``caregiver_id`` is blank when the
+      item's real rows are mostly blank (lab-interface items), else copied (same patient when
+      one exists, else any patient). Lab-derived chart items (sodium,
+      haemoglobin, creatinine, ...) have a blank caregiver on >99% of real
+      rows and a strictly positive delay of 4-140 min, so copying from a
+      same-item neighbour reproduces both; a generic same-patient neighbour
+      would not.
+    * ``stay_id`` / ``hadm_id`` left NA by the icustays lookup are taken from
+      the nearest same-patient row (real chartevents has no blank stay_id).
+
+    Nearest = smallest |charttime difference|, ties broken by original row
+    order. Deterministic, so labels are unchanged.
+    """
+    subject_id = new_chart.get("subject_id")
+    if pd.isna(subject_id) or "charttime" not in chart_df.columns:
+        return
+    ct = pd.to_datetime(new_chart["charttime"], errors="coerce")
+
+    def _nearest(pool: pd.DataFrame) -> pd.Series:
+        pool_ct = pd.to_datetime(pool["charttime"], errors="coerce")
+        if pd.isna(ct) or pool_ct.isna().all():
+            return pool.iloc[0]
+        return pool.loc[(pool_ct - ct).abs().idxmin()]
+
+    same_patient = chart_df[chart_df["subject_id"] == int(subject_id)]
+    same_item = chart_df[chart_df["itemid"] == new_chart["itemid"]]
+    if same_item.empty:
+        same_item = same_patient
+    if same_item.empty:
+        return
+    item_pool = same_item[same_item["subject_id"] == int(subject_id)]
+    if item_pool.empty:
+        item_pool = same_item
+    nb = _nearest(item_pool)
+
+    if "caregiver_id" in chart_df.columns:
+        # Lab-interface items (sodium, creatinine, haemoglobin, ...) arrive
+        # from the lab system, so real rows have a blank caregiver >99% of
+        # the time. Decide by the item's majority, not by one neighbour, so a
+        # rare nurse-entered row can never make the synthetic row the only
+        # such item with a caregiver.
+        item_blank_rate = float(same_item["caregiver_id"].isna().mean())
+        cg = nb.get("caregiver_id", pd.NA)
+        if item_blank_rate >= 0.5 or pd.isna(cg):
+            new_chart["caregiver_id"] = pd.NA
+        else:
+            new_chart["caregiver_id"] = int(cg)
+    if "storetime" in chart_df.columns and pd.notna(ct):
+        nb_ct = pd.to_datetime(nb.get("charttime"), errors="coerce")
+        nb_st = pd.to_datetime(nb.get("storetime"), errors="coerce")
+        delay = (nb_st - nb_ct) if pd.notna(nb_ct) and pd.notna(nb_st) else pd.Timedelta(0)
+        new_chart["storetime"] = (ct + delay).strftime("%Y-%m-%d %H:%M:%S")
+
+    if not same_patient.empty:
+        pnb = _nearest(same_patient)
+        for col in ("stay_id", "hadm_id"):
+            if (
+                col in chart_df.columns
+                and pd.isna(new_chart.get(col, pd.NA))
+                and pd.notna(pnb.get(col, pd.NA))
+            ):
+                new_chart[col] = int(pnb[col])
+    # Every real chartevents row has hadm_id == icustays.hadm_id of its stay;
+    # keep that invariant when the stay came from a neighbour rather than
+    # from the lab row's own admission.
+    icustays = related_tables.get("icustays") if related_tables else None
+    if (
+        icustays is not None
+        and "stay_id" in chart_df.columns
+        and "hadm_id" in chart_df.columns
+        and pd.notna(new_chart.get("stay_id", pd.NA))
+    ):
+        hit = icustays[icustays["stay_id"] == new_chart["stay_id"]]
+        if not hit.empty and pd.notna(hit["hadm_id"].iloc[0]):
+            new_chart["hadm_id"] = int(hit["hadm_id"].iloc[0])
+
+
 def inject_inconsistency(
     df: pd.DataFrame,
     table: str,
@@ -948,10 +1078,18 @@ def inject_inconsistency(
                 )
             except (TypeError, ValueError):
                 precision = DEFAULT_VALUENUM_PRECISION
-            new_valuenum = round(original_value * mult, precision)
+            # Match the source row's rendering (decimals of its ``value`` text)
+            # so the duplicate is not identifiable by formatting alone; fall
+            # back to finer rounding when coarse rounding would erase the
+            # 10-50% disagreement.
+            nd = _like_decimals(dup, "valuenum")
+            new_valuenum = round(original_value * mult, nd)
+            while abs(new_valuenum - original_value) < 1e-9 and nd < precision + 2:
+                nd += 1
+                new_valuenum = round(original_value * mult, nd)
             dup["valuenum"] = new_valuenum
             if "value" in dup.index:
-                dup["value"] = str(new_valuenum)
+                dup["value"] = _fmt_decimals(new_valuenum, nd)
             # Keep the duplicate's ``charttime`` IDENTICAL to the source row
             # (no jitter): two readings of the same measurement at the exact
             # same instant must agree, so a 10-50% disagreement at the same
@@ -1058,12 +1196,21 @@ def inject_inconsistency(
                 new_chart = pd.Series({col: pd.NA for col in df.columns})
                 new_chart["subject_id"] = int(lab_row["subject_id"])
                 if "hadm_id" in df.columns and pd.notna(lab_row.get("hadm_id", None)):
-                    new_chart["hadm_id"] = lab_row["hadm_id"]
+                    # labevents.hadm_id is float-typed (it has NULLs); cast so
+                    # the synthetic row reads "24420677" like every real
+                    # chartevents row, not "24420677.0".
+                    new_chart["hadm_id"] = int(lab_row["hadm_id"])
                 new_chart["charttime"] = lab_row["charttime"]
                 new_chart["itemid"] = chart_id
                 new_chart["valuenum"] = conflicting
                 if "value" in df.columns:
-                    new_chart["value"] = str(conflicting)
+                    # Real chartevents ``value`` text drops the ".0" on whole
+                    # numbers ("226", not "226.0").
+                    new_chart["value"] = (
+                        str(int(conflicting))
+                        if float(conflicting).is_integer()
+                        else str(conflicting)
+                    )
                 if "valueuom" in df.columns:
                     new_chart["valueuom"] = lab_row.get("valueuom", "")
                 if "warning" in df.columns:
@@ -1081,6 +1228,13 @@ def inject_inconsistency(
                     )
                     if stay_id is not None:
                         new_chart["stay_id"] = stay_id
+                # Fill the provenance columns a real bedside row always has
+                # (caregiver_id, storetime; stay_id / hadm_id when the lookup
+                # above found nothing) from the nearest real chartevents row
+                # of the same patient. Blank caregiver/storetime on exactly the
+                # synthetic rows was a trivial shortcut. Deterministic
+                # (nearest charttime), so labels are unchanged.
+                _fill_chart_provenance(new_chart, df, related_tables)
                 salt = int(rng.integers(0, 1 << 32))
                 chart_row_id = sha1(f"DUPX|{lab_row_id}|{salt}".encode()).hexdigest()[
                     :16
@@ -1832,7 +1986,10 @@ def apply_task_corruption(
             original_num = float(L.original_value)
             target_df.loc[mask, "valuenum"] = original_num
             if "value" in target_df.columns:
-                target_df.loc[mask, "value"] = str(original_num)
+                # Source text for whole numbers is "206", not "206.0".
+                target_df.loc[mask, "value"] = (
+                    str(int(original_num)) if original_num == int(original_num) else str(original_num)
+                )
         except (TypeError, ValueError):
             pass
 
@@ -1916,6 +2073,21 @@ def apply_task_corruption(
 
     output_dir.mkdir(parents=True, exist_ok=True)
     for t, df in tables.items():
-        df.to_csv(output_dir / f"{t}.csv.gz", index=False, compression="gzip")
+        # Injected rows (e.g. duplicate-conflict copies) were appended, so a
+        # table's tail was a shortcut to the corruptions. Shuffle every table
+        # with a seed derived from (task id, table) so the order is stable
+        # across regenerations and unrelated to injection order. Labels join
+        # on ``_row_id``, so verification is order-independent.
+        shuffle_seed = int(sha1(f"shuffle|{task_config['id']}|{t}".encode()).hexdigest()[:8], 16)
+        perm = np.random.default_rng(shuffle_seed).permutation(len(df))
+        df = df.iloc[perm].reset_index(drop=True)
+        # mtime=0 leaves no wall-clock timestamp in the gzip header, so the
+        # eight files cannot be ordered by write time.
+        df.to_csv(
+            output_dir / f"{t}.csv.gz",
+            index=False,
+            compression={"method": "gzip", "mtime": 0},
+        )
+        os.utime(output_dir / f"{t}.csv.gz", (0, 0))
 
     return all_labels

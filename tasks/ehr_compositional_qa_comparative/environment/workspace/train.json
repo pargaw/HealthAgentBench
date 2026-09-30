@@ -1,0 +1,1402 @@
+[
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10000032,
+    "hadm_id": 29079034,
+    "stay_id": 39553978,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 2.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_2",
+    "question": "By how many stages above stage 1 does this patient's maximum AKI progress?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_3",
+    "question": "By how many AKI stages above stage 1 does this patient progress within the first 24 hours of ICU admission?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "aki",
+    "variant_id": "variant_4",
+    "question": "By how many stages above stage 2 does this patient's peak AKI progress?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 0.251
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 2.982
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_2",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the high-dose vasopressor threshold of 0.25 mcg/kg/min?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 0.0010000000000000009
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 2.732
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "norepinephrine_equivalent_dose",
+    "variant_id": "variant_4",
+    "question": "By how many mcg/kg/min does this patient's maximum norepinephrine-equivalent dose exceed the moderate vasopressor threshold of 0.5 mcg/kg/min?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 3.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 6.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_2",
+    "question": "By how many SOFA points above 2 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10001217,
+    "hadm_id": 24597018,
+    "stay_id": 37067082,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10001725,
+    "hadm_id": 25563031,
+    "stay_id": 31205490,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10002428,
+    "hadm_id": 20321825,
+    "stay_id": 34807493,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10002495,
+    "hadm_id": 24982426,
+    "stay_id": 36753294,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10002930,
+    "hadm_id": 25696644,
+    "stay_id": 37049133,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10003046,
+    "hadm_id": 26048429,
+    "stay_id": 35514836,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10003400,
+    "hadm_id": 20214994,
+    "stay_id": 32128372,
+    "answer_type": "numerical",
+    "gt_answer": 1.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10004235,
+    "hadm_id": 24181354,
+    "stay_id": 34100191,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10004422,
+    "hadm_id": 21255400,
+    "stay_id": 32155744,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10004457,
+    "hadm_id": 23251352,
+    "stay_id": 31494479,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10004720,
+    "hadm_id": 22081550,
+    "stay_id": 35009126,
+    "answer_type": "numerical",
+    "gt_answer": 4.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10004733,
+    "hadm_id": 27411876,
+    "stay_id": 39635619,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10005348,
+    "hadm_id": 25239799,
+    "stay_id": 34629895,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10005817,
+    "hadm_id": 20626031,
+    "stay_id": 32604416,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10005866,
+    "hadm_id": 20364112,
+    "stay_id": 34170353,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10005909,
+    "hadm_id": 20199380,
+    "stay_id": 36496303,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10006053,
+    "hadm_id": 22942076,
+    "stay_id": 32895909,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10006580,
+    "hadm_id": 24159665,
+    "stay_id": 38329661,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10007058,
+    "hadm_id": 22954658,
+    "stay_id": 32506122,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  },
+  {
+    "concept": "sepsis3",
+    "variant_id": "variant_3",
+    "question": "By how many SOFA points above 4 is this patient's SOFA score at the time of infection?",
+    "subject_id": 10007795,
+    "hadm_id": 28477357,
+    "stay_id": 31921355,
+    "answer_type": "numerical",
+    "gt_answer": 0.0
+  }
+]
