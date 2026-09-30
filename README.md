@@ -46,21 +46,19 @@ clinical or biomedical problem, then a task-specific verifier scores the result.
 
 ### Task Categories
 
-HealthAgentBench currently ships **ten** task categories:
+HealthAgentBench currently ships **eight** task categories:
 
 | Category (name in this codebase) | # Tasks | What is the task |
 | --- | --- | --- |
 | X-ray Report Correction (`xray_report_correction`) | 10 | Correct a chest X-ray radiology report for the latest MIMIC-CXR study, scored with the CheXprompt LLM judge verifier. |
 | Pathology Tumor Area Selection (`pathology_tumor_area_selection`) | 10 | Predict the set of tumor-containing tiles over public whole-slide H&E pathology images. |
 | Pathology Tumor Slide Selection (`pathology_tumor_slide_selection`) | 10 | Given several whole-slide H&E pathology images, identify which slides (possibly none) contain tumor (TCGA slides from the NCI GDC). |
-| EHR Format Conversion (`ehr_to_meds_etl`) | 1 | ETL raw MIMIC-IV EHR data into the MEDS common data format. |
 | CT Abnormality Classification (`ct_abnormality`) | 10 | Patient-level chest-CT abnormality detection built on the CT-RATE dataset. |
-| Clinical Trial Matching (`clinical_trial_matching`) | 9 | Identify every clinical trial a patient is eligible for from a candidate pool (TREC Clinical Trials 2021, set-recall). |
 | EHR Data Quality Auditing (`ehr_data_quality`) | 8 | Flag rows containing injected data-quality errors in a corrupted MIMIC-IV EHR subset. |
 | EHR Event Modelling (`ehr_event_modelling`) | 6 | Predict future clinical events over longitudinal EHR timelines (Stanford SHAH lab's EHRSHOT benchmark). |
-| EHR Compositional QA (`ehr_compositional_qa`) | 1 | Answer all 60 numerical clinical questions from raw MIMIC-IV demo EHR tables; pass requires 60/60 correct. |
-| Knee MRI QA (`mri_qa`) | 10 | Answer abnormality, ACL tear, and meniscal tear questions from all three MRI planes; all answers must match the source labels. [Data and label audit](assets/mri_qa/README.md). |
-| **Total** | **75** | |
+| EHR Compositional QA (`ehr_compositional_qa`) | 6 | Numerical clinical questions (severity scores, AKI stages, sepsis timing) answered from raw MIMIC-IV demo tables with a labelled training set: five sets of 7 to 20 questions split by question type plus one 60-question set; pass requires every answer correct. |
+| Knee MRI QA (`mri_qa`) | 10 | Three knee MRI exams per task; answer ACL tear and meniscal tear for each from all three planes. All six answers must match the source labels. |
+| **Total** | **70** | |
 
 Each task has its own `README.md` under [`tasks/`](tasks/) with the task's category, success criteria, data/credentials, and commands to run that task or its whole category.
 
@@ -77,20 +75,18 @@ HealthAgentBench/                       # repo root
 ├── website/                            # Astro leaderboard / docs site
 ├── LICENSE
 ├── SECURITY.md
-└── tasks/                              # 75 Harbor tasks, one flat directory per task
+└── tasks/                              # 70 Harbor tasks, one flat directory per task
     ├── xray_report_correction_case_*/         # 10 tasks - Longitudinal X-ray report correction
     ├── pathology_tumor_area_selection_slide_*/ # 10 tasks — WSI tumor-tile selection
     ├── pathology_tumor_slide_selection_set_*/  # 10 tasks — pick the tumor slides among several WSIs
-    ├── mri_qa_case_*/                         # 10 tasks — three binary questions per knee MRI
+    ├── mri_qa_set_*/                          # 10 tasks — three knee MRIs, ACL + meniscus tear per exam
     ├── ct_abnormality_valid_*/                 # 10 tasks — chest-CT abnormality detection
-    ├── clinical_trial_matching_task_*/         #  9 tasks — patient ↔ trial matching
     ├── ehr_data_quality_task_*/                #  8 tasks — flag injected EHR errors
     ├── ehr_event_modelling_*/                  #  6 tasks — future clinical-event prediction
-    ├── ehr_compositional_qa/                   #  1 task  — 60 clinical questions over MIMIC-IV
-    └── ehr_to_meds_etl/                        #  1 task  — MIMIC-IV → MEDS ETL
+    └── ehr_compositional_qa_*/                 #  6 tasks — clinical QA over MIMIC-IV demo with a training set
 ```
 
-All 75 tasks live as **flat, sibling directories** directly under `tasks/` — the task
+All 70 tasks live as **flat, sibling directories** directly under `tasks/` — the task
 directory name is prefixed with its category (e.g. `xray_report_correction_case_01`,
 `ct_abnormality_valid_16_a_1`).
 Every task follows the same Harbor layout (`task.toml` + `instruction.md` +
@@ -121,6 +117,11 @@ instructions below and fill in the credentials in `.env` (there is a file
   (Redivis, Stanford SHAH lab). Apply for access from [EHRSHOT](https://stanford.redivis.com/datasets/53gc-8rhx41kgt); once approved, create a 
   [Redivis API token](https://redivis.com/workspace/settings/tokens) and set it
   as `REDIVIS_API_TOKEN` in `.env`.
+- **mri_qa** — [MRNet knee MRI](https://stanford.redivis.com/datasets/4a2c-4cpkzrn2c)
+  (Redivis, Stanford AIMI). Apply for access on Redivis; the same
+  `REDIVIS_API_TOKEN` in `.env` is used. Each task's bootstrap service downloads
+  only its own exam's three series (plus the public label tables) on first run and
+  caches them under `assets/mri_qa/assets/raw_cache/`.
 - **ct_abnormality** — [CT-RATE](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE)
   (Hugging Face, OpenRAIL gated). Accept the dataset agreement from [CT-RATE](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE), then set your
   Hugging Face token as `HF_TOKEN` in `.env`.
@@ -167,7 +168,10 @@ Harbor will print out a `mean` column that records the success rate and all the 
 Note: 
 1. The harbor runs above will download data and mount the data to `assets/<task_category>/` to speed up multiple task setups using the same data assets. You will need at least 30GB on disk available to download the data assets. 
 2. This repo does not host labels, but the harbor runs above will fetch gold labels which will appear under `tasks/<task_name>/tests` after the run.
-3. We suggest disallowing web browsing / web fetching when running this benchmark, so the agent can't cheat by searching for gold labels online. Harbor's built-in Codex agent has no web-search toggle, so you need to create a thin wrapper that subclasses it and adds a CliFlag mapping a kwarg (eg. disable_web_search) to Codex's `-c web_search="disabled"` config override (see the [Codex config reference](https://developers.openai.com/codex/config-reference) and the [Harbor agents docs](https://deepwiki.com/harbor-framework/harbor/4-agents)).
+3. The agent must not reach the internet, so it cannot look up gold labels online. This is enforced in three layers:
+   - **Network allowlist (the actual block).** Every `task.toml` sets `[agent] network_mode = "allowlist"` with `allowed_hosts` limited to the Claude Code and Codex API domains (`anthropic.com`, `openai.com`, `chatgpt.com` and their subdomains). Harbor's egress-control sidecar drops every other connection from the agent container, so `pip install`, `curl` and Python `urlopen` fail. The verifier runs in a separate container with `network_mode = "no-network"` (the xray judge allowlists `api.openai.com` only), and the credentialed data bootstrap runs outside the sidecar and exits before the agent starts.
+   - **Turn off the agents' own web tools.** For Claude Code pass `--agent-kwarg disallowed_tools="WebSearch WebFetch"` as in the commands above. For Codex pass `--agent-kwarg web_search=disabled`, which Harbor renders as Codex's `-c web_search="disabled"` config override (see the [Codex config reference](https://developers.openai.com/codex/config-reference)). Either flag alone is not an egress block; the allowlist is.
+   - **Adding another agent.** To run an agent that talks to a different model API, add its API host(s) to `allowed_hosts` in every `task.toml` (a `sed` over `tasks/*/task.toml` is enough) and keep the list to model endpoints only. Also disable that agent's own browsing or fetch tools if it has them. Harbor prints the allowlist at trial start; a no-op agent that tries `curl` against a few hosts is the quickest way to confirm only those hosts are reachable.
 4. Check the exception errors (if any) reported by Harbor. We treat agenttimeout trials as failures (reward=0) when reporting the overall success rate.
 
 
@@ -201,7 +205,7 @@ uv run harbor run \
   --n-attempts 1 --n-concurrent 5
 ```
 
-Category prefixes for `--include-task-name`: `mri_qa_case_*`, `clinical_trial_matching_*`, `ct_abnormality_*`, `ehr_data_quality_*`, `ehr_event_modelling_*`, `ehr_to_meds_etl`, `ehr_compositional_qa`, `pathology_tumor_area_selection_*`, `pathology_tumor_slide_selection_*`, `xray_report_correction_*`
+Category prefixes for `--include-task-name`: `mri_qa_set_*`, `ct_abnormality_*`, `ehr_data_quality_*`, `ehr_event_modelling_*`, `ehr_compositional_qa_*`, `pathology_tumor_area_selection_*`, `pathology_tumor_slide_selection_*`, `xray_report_correction_*`
 
 
 
@@ -213,7 +217,7 @@ Important pointers:
 
 1. Harbor repo: https://github.com/harbor-framework/harbor
 2. Harbor docs/wiki: https://deepwiki.com/harbor-framework/harbor
-3. Stable Harbor version used here: `0.8.0` (see the `harbor==` pin in `pyproject.toml`)
+3. Stable Harbor version used here: `0.23.0` (see the `harbor==` pin in `pyproject.toml` and `uv.lock`; `uv sync` installs it). The task.toml fields used here (`[agent] network_mode = "allowlist"`, `[verifier] environment_mode = "separate"`, `artifacts`) need Harbor 0.23 or later.
 
 ## Citation
 

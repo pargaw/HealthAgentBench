@@ -97,22 +97,8 @@ Operating Characteristic curve) against the held-out test labels. The
 task counts as solved when your AUROC reaches or exceeds a fixed
 reference AUROC.
 
-## Constraints
-
-- **Time limit: you have up to 1 hour to complete this task.** The
-  environment is terminated the moment the hour elapses — anything not
-  finished by then is lost. Write `/workspace/submission/predictions.csv`
-  early (even from a simple model) and overwrite it as you improve.
-- You have internet access and may install any Python packages or
-  external tools you need.
-  
 ## Resources
 
-The container is limited to the following, and Docker enforces these limits regardless of what system tools report:
-
-- 16 CPUs
-- 64 GiB of memory
-- 64 GiB of disk
-- no GPU
-
-Tools such as `nproc`, `free -h`, `/proc/cpuinfo`, `/proc/meminfo` and `os.cpu_count()` report the host machine (over 100 CPUs and terabytes of RAM), not this container's limits. `events.csv` fits in memory as a single DataFrame at this budget, but pass `n_jobs`/`num_threads` explicitly (at most 16) to model-fitting code rather than relying on auto-detected core counts.
+You have 1 hour to complete the task. There is no internet access beyond the model
+API. The container is configured for 16 CPUs, 64 GiB of memory, 64 GiB of disk, and
+no GPU. System tools may report host resources, not these limits.

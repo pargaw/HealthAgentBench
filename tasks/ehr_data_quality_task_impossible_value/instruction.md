@@ -43,18 +43,8 @@ row-level precision.
 
 EHR tables are at `/workspace/data/csv/<table>.csv.gz` (gzipped CSVs).
 
-## Rules
-
-You should not cheat and you should not directly look up for the end
-solutions from the internet.
-
 ## Resources
 
-The container is limited to the following, and Docker enforces these limits regardless of what system tools report:
-
-- 2 CPUs
-- 4 GiB of memory
-- 10 GiB of disk
-- no GPU
-
-Tools such as `nproc`, `free -h`, `/proc/cpuinfo`, `/proc/meminfo` and `os.cpu_count()` report the host machine (over 100 CPUs and terabytes of RAM), not this container's limits. The largest tables (`chartevents`, `labevents`) may not fit in memory as full pandas DataFrames; read them in chunks or with selected columns.
+You have 1 hour to complete the task. There is no internet access beyond the model
+API. The container is configured for 2 CPUs, 4 GiB of memory, 10 GiB of disk, and no
+GPU. System tools may report host resources, not these limits.

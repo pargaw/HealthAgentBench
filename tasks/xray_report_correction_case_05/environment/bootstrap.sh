@@ -144,8 +144,8 @@ bootstrap_assets() {
   # --- Target study's full report (verifier-only stash) ---
   # Fetch the target study's .txt to /tests/target_report.txt. /tests is
   # bind-mounted from the host's tasks/<task>/tests/ dir (gitignored).
-  # Harbor mounts the same host dir into main only at verifier time, so
-  # the agent never sees this file. bootstrap has PN_USER/PN_PASS env;
+  # Harbor builds the separate verifier image from that dir at verification
+  # time, so the agent never sees this file. bootstrap has PN_USER/PN_PASS env;
   # main does NOT — after bootstrap exits, no PhysioNet creds remain.
   local target_sid target_subj target_group
   # Translate hashed target_study_id → real for the PhysioNet URL.

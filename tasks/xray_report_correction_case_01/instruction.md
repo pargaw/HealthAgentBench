@@ -79,27 +79,8 @@ Update `submission.json` with a JSON-aware tool such as Python
 (e.g. `python -c "import json; ..."`); manual string edits easily
 corrupt the JSON.
 
-## Rules
-
-- **You have up to 1 hour to complete this task.** Be mindful of your
-  time budget: work efficiently and make sure you finish and write your
-  submission well within the time limit.
-- You should not cheat and you should not directly look up the end
-  solutions (for example, the original MIMIC-CXR report) from the
-  internet.
-- Work autonomously until the submission is complete.
-- Do not train models or fine-tune weights.
-
 ## Resources
 
-The container is limited to the following, and Docker enforces these
-limits regardless of what system tools report:
-
-- 2 CPUs
-- 4 GiB of memory
-- 10 GiB of disk
-- no GPU
-
-Tools such as `nproc`, `free -h`, `/proc/cpuinfo`, `/proc/meminfo` and
-`os.cpu_count()` report the host machine (over 100 CPUs and terabytes
-of RAM), not this container's limits.
+You have 1 hour to complete the task. There is no internet access beyond the model
+API. The container is configured for 2 CPUs, 4 GiB of memory, 10 GiB of disk, and no
+GPU. System tools may report host resources, not these limits.

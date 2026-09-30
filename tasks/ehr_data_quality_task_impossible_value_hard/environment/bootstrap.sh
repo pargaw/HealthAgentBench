@@ -38,4 +38,18 @@ python /opt/bootstrap_inputs/stage_data.py \
     --verify-against /tests/labels.csv \
     --no-duckdb
 
+# Timestamp probe: no gzip header MTIME and one shared file mtime, so the
+# eight files cannot be ordered by write time (all are rewritten every run,
+# but a wall-clock stamp is still a needless signal).
+python - <<'PY'
+import glob, os, struct, sys
+files = sorted(glob.glob("/workspace/data/csv/*.csv.gz"))
+assert files, "no staged tables"
+bad = [f for f in files if struct.unpack("<I", open(f, "rb").read(10)[4:8])[0] != 0]
+assert not bad, f"gzip header MTIME set on: {bad}"
+mtimes = {int(os.path.getmtime(f)) for f in files}
+assert len(mtimes) == 1, f"file mtimes differ: {mtimes}"
+print(f"[bootstrap] timestamp probe ok: {len(files)} files, gzip MTIME=0, mtime={mtimes.pop()}")
+PY
+
 echo "[bootstrap] corrupted data staged at /workspace/data, verify-against passed."

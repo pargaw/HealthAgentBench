@@ -15,7 +15,7 @@ environment_mode = "separate"
 
 [verifier.environment]
 build_timeout_sec = 300.0
-allow_internet = false
+network_mode = "no-network"
 cpus = 1
 memory_mb = 512
 storage_mb = 1024

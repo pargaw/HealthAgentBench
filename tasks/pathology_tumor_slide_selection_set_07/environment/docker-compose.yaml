@@ -23,6 +23,10 @@ services:
       - ../../../assets/tumor_slide_selection_pathology/assets/raw_cache:/data/_cache:rw
       # Shared volume: bootstrap stages the slides here; main reads them.
       - slide-data:/data/slides
+    # Explicit networking keeps bootstrap outside Harbor's egress control: it must
+    # reach upstream sources on a cache miss, and no agent code runs in it.
+    networks:
+      - default
     command: ["/bin/bash", "/bootstrap.sh"]
 
 volumes:

@@ -2,7 +2,7 @@
 
 This is one of 10 `pathology_tumor_slide_selection_*` tasks in the **Pathology Tumor Slide Selection** category of [HealthAgentBench](../../README.md).
 
-The agent is given 8 whole-slide H&E pathology images under `/data/slides/` (opaque names `slide_1.svs` … `slide_8.svs`). Any number of them, possibly none, contain tumor; the agent is not told how many. The agent must inspect the slides with tooling of its own choosing and list every tumor-containing slide in `/workspace/submission.json`.
+The agent is given 8 whole-slide H&E pathology images under `/data/slides/` (opaque names `slide_1.svs` … `slide_8.svs`). Any number of them, possibly none, are tumor slides; the agent is not told how many. A tumor slide is defined in the instruction as one that contains malignant tumor cells, whether primary or metastatic. The agent must inspect the slides with the preinstalled tooling (the agent phase has no internet access beyond the model API) and list every tumor slide in `/workspace/submission.json`.
 
 **Success criteria:** the submitted `tumor_slides` set exactly matches the set of slides whose hidden label is tumor (binary reward; slide-level precision/recall/F1 are also reported in `metrics.json`).
 
@@ -35,6 +35,6 @@ uv run harbor run \
 
 ## Data & references
 
-Uses public whole-slide H&E diagnostic images from TCGA, downloaded at run time by the task's one-shot `bootstrap` service from the NCI Genomic Data Commons (no credentials required) into the shared cache `assets/tumor_slide_selection_pathology/assets/raw_cache/`. Slide-level labels are verifier-only and require an unambiguous pathologist review recorded in GDC for every slide: tumor slides are Primary Tumor / Metastatic samples whose pathologist-reviewed `percent_tumor_cells` is greater than 0, and normal slides are Solid Tissue Normal samples whose reviewed `percent_tumor_cells` is exactly 0. Slides without a recorded review are excluded from the pool.
+Uses public whole-slide H&E frozen tissue-section images (TCGA top/bottom-section slides, not FFPE diagnostic slides), downloaded at run time by the task's one-shot `bootstrap` service from the NCI Genomic Data Commons (no credentials required) into the shared cache `assets/tumor_slide_selection_pathology/assets/raw_cache/`. Slide-level labels are verifier-only and require an unambiguous pathologist review recorded in GDC for every slide: tumor slides are Primary Tumor / Metastatic samples whose pathologist-reviewed `percent_tumor_cells` is greater than 0, and normal slides are Solid Tissue Normal samples whose reviewed `percent_tumor_cells` is exactly 0. Slides without a recorded review are excluded from the pool.
 
 - NCI Genomic Data Commons <https://portal.gdc.cancer.gov/>

@@ -15,8 +15,8 @@ services:
       - ./bootstrap.sh:/bootstrap.sh:ro
       # Gold labels — single source of truth at tests/labels.csv. Mounted
       # read-only into bootstrap so the --verify-against check has the
-      # same file the verifier uses. NOT mounted into main; Harbor mounts
-      # /tests/ into a separate verifier exec at scoring time.
+      # same file the verifier uses. NOT mounted into main; the verifier runs
+      # in Harbor's separate container built from tests/ (tests/Dockerfile).
       - ../tests:/tests:ro
       # Host-side cache of the MIMIC-IV-demo raw CSVs, shared across trials
       # so the ~30s download happens at most once per machine.
@@ -25,6 +25,10 @@ services:
       - task-data:/workspace/data:rw
     environment:
       - PYTHONUNBUFFERED=1
+    # Explicit networking keeps bootstrap outside Harbor's egress control: it must
+    # reach upstream sources on a cache miss, and no agent code runs in it.
+    networks:
+      - default
     command: ["/bin/bash", "/bootstrap.sh"]
 
   main:

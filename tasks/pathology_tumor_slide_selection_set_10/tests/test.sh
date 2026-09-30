@@ -8,4 +8,4 @@ python /tests/verify.py \
   --answer-key /tests/task_answer_key.json \
   --reward-txt /logs/verifier/reward.txt \
   --metrics-json /logs/verifier/metrics.json \
-  --error-analysis-file /logs/artifacts/error_analysis.json
+  --error-analysis-file /logs/verifier/error_analysis.json

@@ -229,8 +229,8 @@ def evaluate(
 
 def main() -> None:
     submission = Path("/workspace/submission/flagged_rows.csv")
-    # Harbor mounts the source-tree tests/ dir at /tests/ only when the
-    # verifier executes; the agent phase never sees this path.
+    # labels.csv is baked into the separate verifier image (tests/Dockerfile);
+    # the agent container never receives /tests.
     labels = Path("/tests/labels.csv")
     log_dir = Path("/logs/verifier")
     reward = evaluate(submission, labels, log_dir)

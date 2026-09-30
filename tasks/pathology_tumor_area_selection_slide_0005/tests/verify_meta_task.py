@@ -9,9 +9,6 @@ import shutil
 from pathlib import Path
 from typing import Any
 
-import requests
-import tifffile
-
 from harbor_evaluator import evaluate_submission_rows, load_submission_text
 
 
@@ -66,6 +63,8 @@ def _download_hidden_file(url: str, destination: Path) -> Path:
     destination.parent.mkdir(parents=True, exist_ok=True)
     if destination.exists() and destination.stat().st_size > 0:
         return destination
+    import requests
+
     with requests.get(url, stream=True, timeout=600) as response:
         response.raise_for_status()
         with destination.open("wb") as handle:
@@ -88,6 +87,8 @@ def _open_slide_dimensions(slide_path: Path) -> tuple[int, int]:
             width, height = slide.dimensions
             return int(width), int(height)
     except Exception:
+        import tifffile
+
         with tifffile.TiffFile(slide_path) as tif:
             page = tif.pages[0]
             return int(page.imagewidth), int(page.imagelength)
@@ -101,6 +102,8 @@ def _load_best_mask_level(
 ) -> tuple[Any, float, float]:
     target_width = max(slide_width / max(downsample, 1), 1.0)
     target_height = max(slide_height / max(downsample, 1), 1.0)
+    import tifffile
+
     with tifffile.TiffFile(mask_path) as tif:
         best_index = 0
         best_score: float | None = None
@@ -288,20 +291,28 @@ def main() -> int:
     if not isinstance(answer_key_rows, list):
         raise ValueError("answer key must be a JSON list")
 
-    slide_path = _materialized_slide_file(args.slide_path)
+    slide_path = _materialized_slide_file(args.slide_path) if args.slide_path.is_dir() else None
+    if slide_path is None and any("expected_tumor_tiles" not in r for r in answer_key_rows if isinstance(r, dict)):
+        raise FileNotFoundError("answer key lacks expected_tumor_tiles and no slide is available")
     hydrated_answer_key = _hydrate_answer_key(
         [dict(row) for row in answer_key_rows if isinstance(row, dict)],
         slide_path,
         args.hidden_cache_root,
     )
     summary = evaluate_submission_rows(submission_rows, hydrated_answer_key)
-    _attach_coverage_metrics(
-        summary,
-        submission_rows,
-        hydrated_answer_key,
-        slide_path,
-        args.hidden_cache_root,
-    )
+    if slide_path is None:
+        # Separate verifier: no slide or mask is available and there is no network,
+        # so the slide-based tumor-coverage diagnostic is skipped. The reward only
+        # needs the precomputed expected_tumor_tiles in the answer key.
+        summary["coverage_skipped"] = True
+    else:
+        _attach_coverage_metrics(
+            summary,
+            submission_rows,
+            hydrated_answer_key,
+            slide_path,
+            args.hidden_cache_root,
+        )
 
     if summary["results"]:
         first = summary["results"][0]

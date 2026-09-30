@@ -23,8 +23,7 @@ uv run harbor run --path tasks/ehr_compositional_qa_derived \
   --n-attempts 1 --n-concurrent 1
 ```
 
-Run all five with `uv run harbor run -c jobs/ehr_compositional_qa.yaml`.
-See the [category overview](../../research/ehr_compositional_qa/README.md).
+Run the whole category with `uv run harbor run -p tasks --include-task-name 'ehr_compositional_qa_*' -a <agent> -m <model>`.
 
 ## Bootstrap and label isolation
 

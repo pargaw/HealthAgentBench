@@ -23,8 +23,7 @@ Every question asks for an aggregate over the ICU stay, such as the maximum stag
 - `/workspace/train.json` — 200 labeled examples, twenty for each question
   variant. Use these examples to validate your computations.
 
-- Pre-installed Python data tools: `duckdb`, `pandas`, `numpy`, `pyarrow`.
-  Use them however you like. Bash and standard CLI tools are also available.
+- Bash, Python and standard CLI tools are available.
 - `/workspace/submission.json` — pre-populated with one row per question,
   with `answer` set to `null`. Fill in the `answer` field for each row.
 
@@ -71,16 +70,10 @@ and per-concept accuracy are reported as diagnostic metrics only.
 
 ## Rules
 
-- Do not use the internet to look up answers directly.
 - Do not modify files outside `/workspace/submission.json`.
 
 ## Resources
 
-The container is limited to the following, and Docker enforces these limits regardless of what system tools report:
-
-- 2 CPUs
-- 4 GiB of memory
-- 8 GiB of disk
-- no GPU
-
-Tools such as `nproc`, `free -h`, `/proc/cpuinfo`, `/proc/meminfo` and `os.cpu_count()` report the host machine (over 100 CPUs and terabytes of RAM), not this container's limits.
+You have 1 hour to complete the task. There is no internet access beyond the model
+API. The container is configured for 2 CPUs, 4 GiB of memory, 8 GiB of disk, and no
+GPU. System tools may report host resources, not these limits.
